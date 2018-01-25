@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/data.css">
+
+  <link rel="stylesheet" href="./assets/css/flexslider.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <header id="flex-stretch">
+      <nav class="navbar navbar-expand-lg" style="background-color:white">
+        <a href="#"><img src="./assets/images/logo.jpg" alt="" id="logo"></a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link">STORIES</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">EVENTS</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">PLACES</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">BOARDS</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+  <img src="./assets/images/surf.jpg" alt="surfer" class="images">
+  <section id="second">
+    <p style="color:blue;">Your</p>
+    <h1 style="font-size:70px">Beautiful Escape</h1>
+    <p>One of the greatest things about the sport of surfing is<br> that you need only three things: your body,<br> a surfboard, and a wave.</p>
+  </section>
+  <section style="text-align:center;margin-top:700px">
+    <div class="">
+      <h3>Surfing is the most blissful experience you can<br>have on this planet,a taste of heaven</h3>
+      <h6>JOHN MCCARTHY</h6>
+    </div>
+  </section>
+  <div class="">
+    <img src="./assets/images/output-70.jpg" alt="surfer" id="image1">
+    <img src="./assets/images/output-72.jpg" alt="" id="image2">
+  </div>
+  <h6 class="first">By better understanding the various aspects of <br>surfing you will improve faster and have more<br> fun with water</h6>
+  <a href="#" class="first"><u>READ MORE</u></a>
+  <img src="./assets/images/output-2.jpg" alt="" style="opacity:0.01;">
+  <section class="third">
+    <p>SHOP</p>
+    <h1>Surfboards</h1>
+  </section>
+
+  <div id="main" role="main">
+    <section class="slider">
+      <div class="flexslider carousel">
+        <ul class="slides" id="corousel">
+          <li id="corousel">
+            <img src="./assets/images/output-54.jpg" />
+          </li>
+          <li>
+            <img src="./assets/images/output-48.jpg" />
+          </li>
+          <li>
+            <img src="./assets/images/Capture1.jpg" />
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')
+  </script>
+  <script defer src="./assets/js/jquery.flexslider.js"></script>
+  <script type="text/javascript">
+    //     $(window).load(function(){
+    //     $(".flexslider").flexslider({
+    //     animation:"slide",
+    //     animationLoop:true,
+    //     itemWidth:210,
+    //     itemMargin:5,
+    //     minItems:1,
+    //     maxItems:4
+    //   });
+    // });
+    $(window).load(function() {
+      $('.flexslider').flexslider({
+        animation: "slide"
+      });
+    });
+  </script>
+</body>
+
+</html>
